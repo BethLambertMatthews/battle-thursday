@@ -6,3 +6,4 @@ gem 'capybara'
 gem 'selenium-webdriver'
 gem "sinatra"
 gem "webrick"
+gem "rspec"
