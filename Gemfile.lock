@@ -14,6 +14,7 @@ GEM
     childprocess (3.0.0)
     diff-lcs (1.4.4)
     mini_mime (1.1.1)
+    multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nokogiri (1.12.5-arm64-darwin)
@@ -49,6 +50,12 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
+    sinatra-contrib (2.1.0)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.1.0)
+      sinatra (= 2.1.0)
+      tilt (~> 2.0)
     tilt (2.0.10)
     webrick (1.7.0)
     xpath (3.2.0)
@@ -62,6 +69,7 @@ DEPENDENCIES
   rspec
   selenium-webdriver
   sinatra
+  sinatra-contrib
   webrick
 
 BUNDLED WITH
